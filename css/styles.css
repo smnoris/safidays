@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.safifurra {
+    max-height: 50px;
+}
+
+header {
+    background-color: #ed2323;
+    color: #fbe6e5;
+    padding: 5%;
+}
+
+.social{
+    display:none;
+}
+
+/* main {
+
+} */
+
+nav {
+ background-color: #ea8533; 
+}
+
+footer {
+    background-color: #281d2d;
+    color: #fbe6e5;
+}
+
+@media screen and (min-width: 576px){
+    .social{
+        display: block;
+    }
+}
